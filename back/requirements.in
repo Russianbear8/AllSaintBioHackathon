@@ -1,0 +1,14 @@
+pre-commit
+pip-tools
+ipykernel
+nbstripout
+flask
+werkzeug
+pydantic
+carveme
+cobra
+pandas
+flask_cors
+modelseedpy
+gunicorn
+fastapi

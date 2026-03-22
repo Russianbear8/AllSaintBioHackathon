@@ -1,0 +1,91 @@
+.drop-container {
+  border: 2px dashed #bfbfbf;
+  border-radius: 12px;
+  padding: 32px;
+  min-width: 300px;
+  max-width: 300px;
+  text-align: center;
+  background-color: #fff;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  align-self: center;
+
+  &--dragging {
+    background-color: #fafafa;
+  }
+}
+
+.main-container {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  min-width: 80% !important;
+
+  box-sizing: border-box;
+
+  > * {
+    margin-bottom: 0px !important;
+  }
+}
+
+.main-container :global(.ant-form-item) {
+  margin-bottom: 0px;
+}
+
+.file-select-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &__control-container {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+}
+
+.input-control {
+  display: none !important;
+}
+
+.attributes-container {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px !important;
+
+  &__divider {
+    margin: 5px;
+    background-color: lightgray;
+  }
+}
+
+.form-item {
+  width: 100%;
+  min-width: 200px;
+}
+
+.double-switch {
+  display: flex;
+  flex-direction: row;
+  gap: 8px !important;
+  align-items: start;
+
+  span {
+    margin-top: 4px;
+  }
+}
+.main-control-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 12px;
+
+  > * {
+    flex: 1;
+  }
+}

@@ -1,0 +1,4 @@
+node ./check-branch-commit-msg.js "$1"
+
+
+commitlint --edit .git/COMMIT_EDITMSG

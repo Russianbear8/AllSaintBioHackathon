@@ -1,0 +1,23 @@
+version: "3.9"
+services:
+  backend:
+    build:
+      context: ./back/.
+      dockerfile: Dockerfile
+    container_name: back-biohackathon
+    ports:
+      - "5124:5123"
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./front/.
+      dockerfile: Dockerfile
+      args:
+        VITE_BACKEND_URL: http://localhost:5124
+    container_name: front-biohackathon
+    ports:
+      - "4173:4173"
+    depends_on:
+      - backend
+    restart: unless-stopped

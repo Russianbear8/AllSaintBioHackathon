@@ -1,0 +1,56 @@
+{
+    "mainApp.pages.homePage.title":"Drag and drop .zip folder from database",
+    "mainApp.pages.features.uploadFile.boxPrompt":"Place the file here",
+    "mainApp.pages.features.uploadFile.selectedFile":"Selected file: {{file_name}}",
+    "mainApp.pages.features.uploadFile.selectButton":"Select file",
+    "mainApp.pages.features.uploadFile.selectError":"Please select a .zip file",
+    "mainApp.pages.features.uploadFile.clearButton":"Clear",
+    "mainApp.pages.features.uploadFile.submit":"Submit",
+    "mainApp.pages.features.uploadFile.form.growth":"Growth Rate",
+    "mainApp.pages.features.uploadFile.form.biomassStart":"Starting Biomass",
+    "mainApp.pages.features.uploadFile.form.EX_glc__D_e": "Glucose",
+    "mainApp.pages.features.uploadFile.form.EX_nh4_e": "Ammonium",
+    "mainApp.pages.features.uploadFile.form.EX_pi_e": "Phosphate",
+    "mainApp.pages.features.uploadFile.form.EX_o2_e": "Oxygen",
+    "mainApp.pages.features.uploadFile.form.EX_so4_e": "Sulphate",
+    "mainApp.pages.features.uploadFile.form.EX_h2o_e": "Water",
+    "mainApp.pages.features.uploadFile.form.EX_h_e": "Proton",
+    "mainApp.pages.features.uploadFile.form.EX_k_e": "Potassium",
+    "mainApp.pages.features.uploadFile.form.EX_na1_e": "Sodium",
+    "mainApp.pages.features.uploadFile.form.EX_mg2_e": "Magnesium",
+    "mainApp.pages.features.uploadFile.form.EX_ca2_e": "Calcium",
+    "mainApp.pages.features.uploadFile.form.hours": "Hours",
+
+    "mainApp.pages.features.uploadFile.form.genomeName":"Genome Name",
+    "mainApp.pages.features.uploadFile.attributes":"FBA Attributes",
+    "mainApp.pages.features.uploadFile.xmlGeneration":"XML Generation",
+    "mainApp.pages.features.uploadFile.xmlGeneration.craveme":"Carveme",
+    "mainApp.pages.features.uploadFile.xmlGeneration.modelseed":"Modelseed",
+    
+
+    "mainApp.pages.features.uploadFile.reset":"Reset",
+    "mainApp.pages.features.uploadFile.test":"Test",
+
+    "mainApp.entities.analysis.table.title":"Reaction Table",
+    "mainApp.entities.analysis.table.metabolite":"Metabolite",
+    "mainApp.entities.analysis.table.g_per_L":"g/L",
+    "mainApp.entities.analysis.stats.title":"Stats",
+    "mainApp.entities.analysis.stats.growthRate":"Growth Rate",
+
+    "mainApp.pages.GraphPage.returnButton":"Return to Main Page",
+
+    "mainApp.entities.analysis.biomassChart.title":"Biomass Chart",
+    "mainApp.entities.analysis.biomassChart.biomass":"Biomass",
+    "mainApp.entities.analysis.biomassChart.time":"Time",
+
+    "mainApp.entities.analysis.mediumsChart.title":"Mediums Chart",
+    "mainApp.entities.analysis.mediumsChart.value":"Concentration (mM)",
+    "mainApp.entities.analysis.mediumsChart.time":"Time",
+   
+    "mainApp.notification.fileSubmitError":"Validation Error",
+    "mainApp.notification.serverError":"Server Error",
+    "mainApp.errors.requiredField":"This field is required",
+    "mainApp.placeholders.general":"Provide {{field_name}}"
+}
+
+
