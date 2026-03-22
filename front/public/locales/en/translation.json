@@ -43,8 +43,8 @@
     "mainApp.entities.analysis.biomassChart.biomass":"Biomass",
     "mainApp.entities.analysis.biomassChart.time":"Time",
 
-    "mainApp.entities.analysis.mediumsChart.title":"Mediums Chart",
-    "mainApp.entities.analysis.mediumsChart.value":"Concentration (mM)",
+    "mainApp.entities.analysis.mediumsChart.title":"Media Chart",
+    "mainApp.entities.analysis.mediumsChart.value":"Amount (mmol)",
     "mainApp.entities.analysis.mediumsChart.time":"Time",
    
     "mainApp.notification.fileSubmitError":"Validation Error",
